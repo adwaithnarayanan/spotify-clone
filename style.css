@@ -331,7 +331,7 @@ ul {
   padding: 0 1.5rem 2rem;
 }
 
-.lang-button {
+.lf-side-bottom-language-section .lang-button {
   border: 1px solid var(--secondary-font-color);
   width: fit-content;
   height: 32px;
@@ -1126,6 +1126,15 @@ ul {
   .mobile-text-two {
     display: flex;
     margin-top: 16px;
+    border: 1px solid var(--secondary-font-color);
+    width: fit-content;
+    height: 32px;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    padding: 0.1875rem 0.9375rem 0.1875rem 2rem;
+    position: relative;
+    box-sizing: border-box;
   }
 
   .lang-button-text {
